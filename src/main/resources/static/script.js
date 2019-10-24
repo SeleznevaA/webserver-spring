@@ -23,3 +23,14 @@ function clickNewCounter() {
             document.getElementById("counterValue").value = "";
         });
 }
+
+function clickLog() {
+    var formData = new FormData(document.forms.log);
+
+    fetch('/log', { method: 'POST', body: formData })
+        .then(response => response.text())
+        .then(response => {
+            document.getElementById("logResult").innerHTML = "result: " + response;
+            document.getElementById("logValue").value = "";
+        });
+}
