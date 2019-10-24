@@ -1,4 +1,4 @@
-package ru.pflb.webserver;
+package ru.pflb.webserver.service.domain;
 
 public class RandomGenerator {
     private int from;

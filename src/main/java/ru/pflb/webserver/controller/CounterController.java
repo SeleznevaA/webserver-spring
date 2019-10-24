@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.pflb.webserver.Counter;
+import ru.pflb.webserver.controller.dto.Counter;
 
 @RestController
 public class CounterController {

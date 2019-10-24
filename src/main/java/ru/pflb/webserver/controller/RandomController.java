@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-import ru.pflb.webserver.RandomGenerator;
-import ru.pflb.webserver.RandomNumber;
+import ru.pflb.webserver.service.domain.RandomGenerator;
+import ru.pflb.webserver.controller.dto.RandomNumber;
 
 @RestController
 public class RandomController {

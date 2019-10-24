@@ -1,4 +1,4 @@
-package ru.pflb.webserver;
+package ru.pflb.webserver.controller.dto;
 
 public class Counter {
     private final int start;

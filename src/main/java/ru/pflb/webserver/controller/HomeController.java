@@ -19,4 +19,9 @@ public class HomeController {
     public String counterPage() {
         return "counter";
     }
+
+    @GetMapping("/log")
+    public String logPage() {
+        return "log";
+    }
 }

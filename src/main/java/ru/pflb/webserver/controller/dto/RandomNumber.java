@@ -1,4 +1,4 @@
-package ru.pflb.webserver;
+package ru.pflb.webserver.controller.dto;
 
 public class RandomNumber {
     private final int from;
